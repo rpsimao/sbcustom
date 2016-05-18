@@ -1,0 +1,44 @@
+.description {
+	text-align: justify;
+    color: #373a3c;
+}
+
+.set-name{
+	font-size: 120%;
+	color: #8a6e4b;
+	font-weight: bold;
+}
+
+.specs-gold {
+	color: #8a6e4b;
+	font-size: 80%;
+	
+}
+
+.text-90{
+	font-size: 90%;
+	
+}
+
+.front-strat,
+.back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front-strat {
+    z-index: 2;
+    background-color: #8a6e4b;
+    width: 100%;
+    height: auto;
+    min-height: 350px;
+    background: #8a6e4b url("/assets/images/strat-logo.png") no-repeat center;
+}
+
+.gold{
+    color: #8a6e4b;
+}
+
