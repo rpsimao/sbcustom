@@ -1,0 +1,47 @@
+/*
+  Icon Font: pickups
+*/
+
+@font-face {
+  font-family: "pickups";
+  src: url("../fonts/pickups.eot");
+  src: url("../fonts/pickups.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/pickups.woff") format("woff"),
+       url("../fonts/pickups.ttf") format("truetype"),
+       url("../fonts/pickups.svg#pickups") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "pickups";
+    src: url("../fonts/pickups.svg#pickups") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-p90:before,
+.icon-pbass:before,
+.icon-strat:before,
+.icon-stratocaster:before {
+  display: inline-block;
+  font-family: "pickups";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-p90:before { content: "\f103"; }
+.icon-pbass:before { content: "\f101"; }
+.icon-strat:before { content: "\f100"; }
+.icon-stratocaster:before { content: "\f102"; }

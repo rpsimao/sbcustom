@@ -15,7 +15,7 @@
 
     <title>SB Custom :: Boutique Guitar and Bass Pickups - Custom Guitars and Basses</title>
     <link rel="icon" href="assets/img/icon/fav_icon.gif">
-    
+
 
     <!--necessary stylesheets -->
 
@@ -27,12 +27,13 @@
     <link type="text/css" rel="stylesheet" href="assets/css/owl.theme.css">
     <link type="text/css" rel="stylesheet" href="assets/css/style.css">
     <link type="text/css" rel="stylesheet" href="assets/css/sbcustom.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/pickups.css">
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+
     <!--[if IE]>
 		<style>
 		    .flip-container:hover .back,
@@ -47,7 +48,7 @@
 
 
 <body>
-    
+
     <!-- Preloader -->
 
     <div id="preloader">
@@ -60,13 +61,13 @@
     </div>
 
     <!-- home-page -->
-    
-    <?php include_once ("partials/home.phtml"); ?>
-    
 
-    
+    <?php include_once ("partials/home.phtml"); ?>
+
+
+
     <div class="close-btn"></div>
-    
+
 
 
     <?php include_once ("partials/guitarpickups.phtml") ?>
@@ -77,13 +78,13 @@
 
 
     <?php include_once ("partials/custom.phtml") ?>
-    
+
 
 
     <?php include_once ("partials/work.phtml") ?>
-    
 
-    
+
+
     <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/modernizr.js"></script>
@@ -91,7 +92,6 @@
     <script type="text/javascript" src="assets/js/jquery.mixitup.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery.popup.min.js"></script>
     <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script type="text/javascript" src="assets/js/contact.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
     <script type="text/javascript" src="assets/js/sbcustom.js"></script>

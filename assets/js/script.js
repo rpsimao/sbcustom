@@ -107,24 +107,7 @@ $(document).ready(function () {
         hideBoots4Menu();
     });
 
-    var mapCanvas = document.getElementById('map-canvas');
-    var mapOptions = {
-        center: new google.maps.LatLng(40.565934, -122.388118),
-        zoom: 16,
-        scrollwheel: false,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-    var map = new google.maps.Map(mapCanvas, mapOptions)
 
-    var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(40.565234, -122.388118),
-            title:"Boots4 Office"
-        });
-
-        // To add the marker to the map, call setMap();
-        marker.setMap(map);
-
-    //google.maps.event.addDomListener(window, 'load', initialize);
 
 
     // Show Reletive Page Onclick
@@ -198,7 +181,7 @@ $(document).ready(function () {
     /*----------------------script for owl carousel sponsors---------------------*/
 
         $("#sponsor-list").owlCarousel({
-                 
+
             autoPlay: 3000, //Set AutoPlay to 3 seconds
             stopOnHover: true,
             items : 3,
@@ -227,6 +210,6 @@ $(document).ready(function () {
         var redirectPage = window.location.hash.slice(1);
         $('*[data-url_target="'+redirectPage+'"]').trigger('click');
     }
-    
+
 
 });

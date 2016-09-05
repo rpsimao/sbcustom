@@ -308,7 +308,7 @@ body {
     font-family: 'Playfair Display', serif;
     position: relative;
     z-index: 10;
-    top: 35%;
+    top: 28%;
     display: table;
     margin: 0 auto;
 
@@ -320,9 +320,11 @@ body {
 }
 
 .intro-content img {
-    position: absolute;
+    position: relative;
+    display: table;
     top: 0;
     left: 0;
+    max-width: 95%;
 }
 
 .intro-content h1 {
@@ -368,7 +370,7 @@ body {
 
 .social-media a + .tooltip > .tooltip-inner {
     background-color: transparent;
-    color: #00B796;
+    color: #8a6e4b;
     font-size: 16px;
 }
 
@@ -380,7 +382,7 @@ body {
 /*Bootstrap tooltips Customized*/
 
 .social-media a:hover {
-    color: #00B796;
+    color: #8a6e4b;
 }
 
 
@@ -462,7 +464,7 @@ body {
 }
 
 .menu > div h2 span {
-    color: #00B796;
+    color: #8a6e4b;
 }
 
 
@@ -696,8 +698,8 @@ body {
 
 .filter {
     background: none;
-    border: 1px solid #00B796;
-    color: #00B796;
+    border: 1px solid #8a6e4b;
+    color: #8a6e4b;
     margin: 10px 0;
     padding: 10px 25px;
     -webkir-transition: all 0.3s;
@@ -706,12 +708,12 @@ body {
 }
 
 .filter:hover {
-    background: #00B796;
+    background: #8a6e4b;
     color: #fff;
 }
 
 .filter.active {
-    background: #00B796;
+    background: #8a6e4b;
     color: #fff;
 }
 
@@ -743,7 +745,7 @@ body {
 }
 
 .project .ovrly {
-    background: rgba(0, 183, 150, 0.5);
+    background: rgba(138, 110, 75, 0.5);
     position: absolute;
     height: 100%;
     left: 0;
@@ -819,7 +821,7 @@ body {
 
 .popup_content {
     max-width: 500px;
-    border: 5px solid #00B796;
+    border: 5px solid #8a6e4b;
     background: #fff;
 }
 
@@ -839,8 +841,8 @@ body {
 }
 
 .popup_content a {
-    border: 1px solid #00B796;
-    color: #00B796;
+    border: 1px solid #8a6e4b;
+    color: #8a6e4b;
     display: block;
     width: 150px;
     margin: 30px auto;
@@ -852,7 +854,7 @@ body {
 }
 
 .popup_content a:hover {
-    background: #00B796;
+    background: #8a6e4b;
     color: #fff;
 }
 
@@ -920,7 +922,7 @@ body {
 {
     height: auto;
     min-height: 350px;
-    background: #8a6e4b url("/assets/images/strat-logo.png") no-repeat center;
+    background: url("/assets/images/strat-logo.png") no-repeat center;
 
 }
 .flip-container a,
@@ -964,7 +966,6 @@ body {
 
 .front {
     z-index: 2;
-    background-color: #8a6e4b;
     width: 100%;
 }
 
