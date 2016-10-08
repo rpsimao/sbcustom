@@ -197,10 +197,11 @@
     transform: rotateY(180deg);
     background-color: #e4dbd1;
     z-index: 99999999;
+    padding-right: 15px;
 }
 
 .back-premium h5 {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .back-premium p {
@@ -213,4 +214,16 @@
 .gold-border {
 
     background-color: #f4efea;
+}
+
+.back-premium img {
+	padding-right: 10px;
+	padding-left: 20px;
+	max-width: 400px;
+	max-height: 250px;
+}
+
+.back-premium p {
+	line-height: 98%;
+	font-size: 95%;
 }
