@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9baf4845-4bc3-4e37-b844-0162da25cb3e" name="SBCustom" url="http://www.sbcustom.pt">
+        <fileTransfer host="www.sbcustom.pt" port="21" rootFolder="/public_html" password="df8edff8dfdadfd9df9bdf9adf98df9edf8cdfebdfdadfc7df9edf93df9adf9e" username="rpsimao@sbcustom.pt">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

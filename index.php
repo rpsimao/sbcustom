@@ -73,15 +73,15 @@
     <?php include_once ("partials/guitarpickups.phtml") ?>
 
 
-    <?php include_once ("partials/basspickups.phtml") ?>
+    <?php include_once("partials/basspickups.phtml") ?>
 
 
 
-    <?php include_once ("partials/custom.phtml") ?>
+    <?php include_once ("partials/customguitarbass.phtml") ?>
 
 
 
-    <?php include_once ("partials/work.phtml") ?>
+    <?php include_once ("partials/premium.phtml") ?>
 
 
 

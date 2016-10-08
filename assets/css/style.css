@@ -500,6 +500,7 @@ body {
 .profile-page,
 .service-page,
 .guitar-pickups-page,
+.bass-pickups-page,
 .portfolio-page,
 .contact-page {
     position: absolute;
@@ -686,7 +687,7 @@ body {
 /* ( a ) Portfolio Section */
 
 .portfolio-page .image-container {
-    background: url(../img/portfolio_featured.png);
+    background: url(../images/bass-pickups-page.png);
     background-size: cover;
     background-position: bottom;
 }
@@ -867,17 +868,23 @@ body {
 =======================================*/
 
 .service-page .image-container {
-    background: url(../img/service_featured.png);
+    background: url(../images/customgb.png);
     background-size: cover;
     background-position: bottom;
 }
 
-.guitar-pickups-page, .image-container {
+.guitar-pickups-page .image-container {
     background: url(../images/guitar-pickups-page.png);
     background-size: cover;
     background-position: bottom;
 }
 
+
+.bass-pickups-page .image-container {
+    background: url(../images/bass-pickups-page.png);
+    background-size: cover;
+    background-position: bottom;
+}
 
 /*---------  service-flip------------------*/
 
@@ -907,13 +914,15 @@ body {
     perspective: 1000;
 }
 
-/*.flip-container:hover .flipper,
+/*
+.flip-container:hover .flipper,
 .flip-container.hover .flipper {
     -webkit-transform: rotateY(180deg);
     -ms-transform: rotate(-180deg);
     -sand-transform: rotate(-180deg);
     transform: rotateY(180deg);
-}*/
+}
+*/
 
 
 
@@ -925,8 +934,20 @@ body {
     background: url("/assets/images/strat-logo.png") no-repeat center;
 
 }
+
+.flip-container,
+.front-bass
+{
+    height: auto;
+    min-height: 350px;
+    background: url("/assets/images/bass-logo.png") no-repeat center;
+
+}
+
+
 .flip-container a,
-.front a {
+.front a,
+.front-bass a{
     color: white;
 }
 
@@ -956,6 +977,7 @@ body {
 
 
 .front,
+.front-bass,
 .back {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -964,16 +986,19 @@ body {
     left: 0;
 }
 
-.front {
+.front,
+.front-bass {
     z-index: 2;
     width: 100%;
 }
 
 .front h5,
+.front-bass h5,
 .back p {
     margin-top: 20px;
 }
 
+.front-bass h5,
 .front h5 {
     line-height: 31px;
     font-size: 130%;
@@ -986,6 +1011,13 @@ body {
     width: 100%;
     color: white;
 }
+
+
+
+
+
+
+
 
 .back {
     -webkit-transform: rotateY(180deg);
@@ -1066,6 +1098,10 @@ body {
 
 .price-category-gold:hover .price-box {
     border: 1px solid #8a6e4b;
+}
+
+.price-category-silver:hover .price-box {
+    border: 1px solid #7c7b7b;
 }
 
 .price-catagory:hover .price-box .btn {
@@ -1181,7 +1217,7 @@ body {
 }
 
 .contact-page .image-container {
-    background: url(../img/contact_featured.png);
+    background: url(../images/premium.png);
     background-size: cover;
     background-position: bottom;
 }
@@ -1228,20 +1264,24 @@ input#cfsubmit:hover {
 }
 
 .portfolio-page .footer {
-    background-color: #004824;
+    background-color: #7c7b7b;
 }
 
 .service-page .footer {
-    background-color: #761616;
+    background-color: #7c7b7b;
 }
 
 .contact-page .footer {
-    background-color: #935B25;
+    background-color: #534330;
 }
 
 
 .guitar-pickups-page .footer {
     background-color: #534330;
+}
+
+.bass-pickups-page .footer {
+    background-color: #7c7b7b;
 }
 .footer .copyright {
     color: #fff;
