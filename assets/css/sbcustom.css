@@ -172,7 +172,7 @@
     font-size: 130%;
     font-weight: 800;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     left: 50%;
     right: 50%;
     margin-left: -50%;
@@ -227,3 +227,25 @@
 	line-height: 98%;
 	font-size: 96%;
 }
+
+@media (max-width: 767px){
+
+.back-premium img {
+	padding-right: 10px;
+	padding-left: 10px;
+	max-width: 340px;
+}
+	
+.intro-content {
+    top: 18%;
+
+}	
+
+
+}
+	
+	
+	
+	
+	
+	
