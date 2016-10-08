@@ -1379,6 +1379,7 @@ input#cfsubmit:hover {
     .intro-content .slogan-text{
         margin-top: 15px;
         font-size: 16px;
+        padding-right: 8px;
     }
 
     .social-media{
