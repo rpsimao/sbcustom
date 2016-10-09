@@ -228,6 +228,13 @@
 	font-size: 96%;
 }
 
+.logo-sbcustom {
+
+    width: 700px;
+    height: 281px;
+    background: url("/assets/images/SB-Custom-LOGO-HZ-700px.png") no-repeat;
+}
+
 @media (max-width: 767px){
 
 .back-premium img {
@@ -270,10 +277,74 @@
     transition: all 0.3s;
 }
 
+    .faq-desc-item {
+        display: none;
+    }
+
+    h2.hide-on-ipad{
+        display: none;
+    }
+
 }
-	
-	
-	
-	
+
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
+    .intro-content img{
+        max-height: 90%;
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .slogan-text {
+        text-align: center;
+    }
+
+    .faq-desc-item {
+        display: none;
+    }
+
+    h2.hide-on-ipad{
+        display: none;
+    }
+
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+
+    .intro-content img{
+        max-height: 75%;
+        max-width: 93%;
+
+        margin: auto;
+    }
+
+    .faq-desc-item {
+        display: none;
+    }
+
+    h2.hide-on-ipad{
+        display: none;
+    }
+
+    .main-heading {
+
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        width: 400px;
+
+    }
+
+    .main-heading h1 {
+        color: #fff;
+        font-size: 30px;
+        position: relative;
+        text-transform: capitalize;
+        text-align: left;
+    }
+
+    .slogan-text {
+        text-align: center;
+    }
+}
 	
 	

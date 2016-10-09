@@ -529,6 +529,7 @@ body {
     -ms-transform-origin: left;
     -o-transform-origin: left;
     bottom: 40%;
+    width: 400px;
 }
 
 .main-heading h1 {
