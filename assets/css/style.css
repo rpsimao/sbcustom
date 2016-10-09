@@ -324,7 +324,9 @@ body {
     display: table;
     top: 0;
     left: 0;
-    max-width: 95%;
+    max-width: 100%;
+
+
 }
 
 .intro-content h1 {
@@ -688,7 +690,7 @@ body {
 /* ( a ) Portfolio Section */
 
 .portfolio-page .image-container {
-    background: url(../images/bass-pickups-page.png);
+    background: url(../images/custom-page.png);
     background-size: cover;
     background-position: bottom;
 }
@@ -700,8 +702,8 @@ body {
 
 .filter {
     background: none;
-    border: 1px solid #8a6e4b;
-    color: #8a6e4b;
+    border: 1px solid #7c7b7b;
+    color: #7c7b7b;
     margin: 10px 0;
     padding: 10px 25px;
     -webkir-transition: all 0.3s;
@@ -710,12 +712,12 @@ body {
 }
 
 .filter:hover {
-    background: #8a6e4b;
+    background: #7c7b7b;
     color: #fff;
 }
 
 .filter.active {
-    background: #8a6e4b;
+    background: #7c7b7b;
     color: #fff;
 }
 
@@ -747,7 +749,7 @@ body {
 }
 
 .project .ovrly {
-    background: rgba(138, 110, 75, 0.5);
+    background: rgba(124, 123, 123, 0.5);
     position: absolute;
     height: 100%;
     left: 0;

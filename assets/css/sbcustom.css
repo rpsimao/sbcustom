@@ -246,7 +246,9 @@
 .intro-content {
     top: 5%;
 
-}	
+
+}
+
 
 .menu > div h2 {
     color: #fff;
@@ -289,8 +291,8 @@
 
 @media screen and (min-device-width: 481px) and (orientation:landscape) {
     .intro-content img{
-        max-height: 90%;
-        max-width: 90%;
+        height: 90%;
+        width: 90%;
         margin: auto;
     }
 
@@ -304,6 +306,11 @@
 
     h2.hide-on-ipad{
         display: none;
+    }
+
+    .description {
+        font-size: 90%;
+        clear:both;
     }
 
 }
@@ -346,5 +353,33 @@
         text-align: center;
     }
 }
-	
-	
+
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+    .faq-desc-item {
+        display: none;
+    }
+
+}
+
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+
+.price-category-gold{
+    width: 400px;
+    margin-left:8.333333%
+}
+}
+
+
+
+.project figure {
+    position: relative;
+}
+
+.project figcaption {
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

@@ -63,30 +63,12 @@
     </div>
 
     <!-- home-page -->
-
     <?php include_once ("partials/home.phtml"); ?>
-
-
-
     <div class="close-btn"></div>
-
-
-
     <?php include_once ("partials/guitarpickups.phtml") ?>
-
-
-    <?php include_once("partials/basspickups.phtml") ?>
-
-
-
+    <?php include_once ("partials/basspickups.phtml") ?>
     <?php include_once ("partials/customguitarbass.phtml") ?>
-
-
-
     <?php include_once ("partials/premium.phtml") ?>
-
-
-
     <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/modernizr.js"></script>
