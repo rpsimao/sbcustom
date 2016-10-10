@@ -62,7 +62,10 @@ class Porfolio
      */
     private $goToGalleryURL;
 
-
+    /**
+     * @var string
+     */
+    private $projectType;
 
     /**
      * @return string
@@ -193,12 +196,30 @@ class Porfolio
     }
 
     /**
+     * @return string
+     */
+    private function getProjectType()
+    {
+        return $this->projectType;
+    }
+
+    /**
+     * @param string $projectType
+     */
+    public function setProjectType($projectType)
+    {
+        $this->projectType = $projectType;
+    }
+
+
+
+    /**
      * Render the Gallery HTML
      * @return string
      */
     public function render()
     {
-       $html = '<!-- Portfolio Image --><div class="col-lg-4 col-md-6 col-sm-4 col-xs-6 mix graphic-design" style="display: inline-block;"><div class="project"><figure><img src="'.$this->getImageFront().'" alt=""><figcaption>'.$this->getCaption().'</figcaption></figure><div class="ovrly"></div><div class="buttons"><a href="#" class="fa fa-link"></a><a href="#'.$this->getId().'" class="fa fa-search show-popup"></a></div></div></div><!-- Popup Content --><div class="pop-up-box" id="'.$this->id.'"><img alt="" src="'.$this->getImageBack().'" class=" hidden-xs"><div class="popup-content"><h3>'.$this->getCaption().'</h3><p>'.$this->getProjectText().'</p><a href="'.$this->getGoToGalleryURL().'"><i class="fa fa-picture-o" aria-hidden="true"></i> PREVIEW</a></div></div><!-- Single Portfolio Item [ END ] -->';
+       $html = '<!-- Portfolio Image --><div class="col-lg-4 col-md-6 col-sm-4 col-xs-6 mix '.$this->getProjectType().'" style="display: inline-block;"><div class="project"><figure><img src="'.$this->getImageFront().'" alt=""><figcaption>'.$this->getCaption().'</figcaption></figure><div class="ovrly"></div><div class="buttons"><a href="'.$this->getGoToGalleryURL().'" class="fa fa-picture-o"></a><a href="#'.$this->getId().'" class="fa fa-info-circle show-popup"></a></div></div></div><!-- Popup Content --><div class="pop-up-box" id="'.$this->id.'"><img alt="" src="'.$this->getImageBack().'" class=" hidden-xs"><div class="popup-content"><h3>'.$this->getCaption().'</h3><p>'.$this->getProjectText().'</p><a href="'.$this->getGoToGalleryURL().'"><i class="fa fa-picture-o" aria-hidden="true"></i> PREVIEW</a></div></div><!-- Single Portfolio Item [ END ] -->';
 
         return $html;
 
