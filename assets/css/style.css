@@ -62,7 +62,7 @@
    1 ) Font Import From Google Fonts
   -----------------------------------*/
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,300,500);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,300,500,200);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
@@ -734,7 +734,7 @@ body {
 
 .project {
     width: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin: 15px 0;
     position: relative;
     box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
@@ -749,7 +749,7 @@ body {
 }
 
 .project .ovrly {
-    background: rgba(124, 123, 123, 0.5);
+    background: rgba(124, 123, 123, 0.7);
     position: absolute;
     height: 100%;
     left: 0;
@@ -825,7 +825,7 @@ body {
 
 .popup_content {
     max-width: 500px;
-    border: 5px solid #8a6e4b;
+    border: 5px solid #7c7b7b;
     background: #fff;
 }
 
@@ -845,10 +845,10 @@ body {
 }
 
 .popup_content a {
-    border: 1px solid #8a6e4b;
-    color: #8a6e4b;
+    border: 1px solid #7c7b7b;
+    color: #7c7b7b;
     display: block;
-    width: 150px;
+    width: 170px;
     margin: 30px auto;
     padding: 10px 25px;
     text-decoration: none;
@@ -858,7 +858,7 @@ body {
 }
 
 .popup_content a:hover {
-    background: #8a6e4b;
+    background: #7c7b7b;
     color: #fff;
 }
 
