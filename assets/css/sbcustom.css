@@ -219,7 +219,7 @@
 .back-premium img {
 	padding-right: 10px;
 	padding-left: 20px;
-	max-width: 380px;
+	max-width: 350px;
 	max-height: 250px;
 }
 
@@ -237,11 +237,11 @@
 
 @media (max-width: 767px){
 
-.back-premium img {
+/*.back-premium img {
 	padding-right: 10px;
 	padding-left: 10px;
 	max-width: 340px;
-}
+}*/
 	
 .intro-content {
     top: 5%;
@@ -352,7 +352,39 @@
     .slogan-text {
         text-align: center;
     }
+
+    .back-premium img {
+        padding-right: 10px;
+        padding-left: 20px;
+        max-width: 200px;
+        max-height: 250px;
+    }
 }
+
+
+@media (max-width: 1200px) and (min-width: 1024px){
+
+    .back-premium img {
+        padding-right: 10px;
+        padding-left: 20px;
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+}
+
+@media (max-width: 1300px) and (min-width: 1100px){
+
+    .back-premium img {
+        padding-right: 10px;
+        padding-left: 20px;
+        max-width: 270px;
+        max-height: 250px;
+    }
+
+}
+
+
 
 @media screen and (max-device-width: 480px) and (orientation:portrait) {
     .faq-desc-item {
@@ -367,6 +399,13 @@
     width: 400px;
     margin-left:8.333333%
 }
+
+    .back-premium img {
+        padding-right: 10px;
+        padding-left: 20px;
+        max-width: 270px;
+        max-height: 250px;
+    }
 }
 
 .project figure img {
