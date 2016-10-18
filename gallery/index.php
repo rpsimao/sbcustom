@@ -15,7 +15,6 @@
     <title>SB Custom :: Boutique Guitar and Bass Pickups - Custom Guitars and Basses</title>
     <link rel="icon" href="/assets/img/icon/fav_icon.gif">
 
-
     <!--necessary stylesheets -->
 
     <link type="text/css" rel="stylesheet" href="../assets/css/bootstrap.min.css">
