@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="description" content="SB Custom Site">
+    <meta name="author" content="Ricardo Simão">
     <!-- title and favicon -->
     <title>SB Custom :: Boutique Guitar and Bass Pickups - Custom Guitars and Basses</title>
     <link rel="icon" href="assets/img/icon/fav_icon.gif">
