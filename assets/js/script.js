@@ -9,7 +9,6 @@ $(window).load(function () {
 });
 
 $(document).ready(function () {
-
     'use strict';
 
     /*  ---------------------
@@ -38,7 +37,6 @@ $(document).ready(function () {
             });
 
         }
-
         // Homepage Profile Image Responsive
 
         var introWidth = $('.introduction').width(),
@@ -175,8 +173,6 @@ $(document).ready(function () {
 
     $('.contact-details .social-media [data-toggle="tooltip"]').tooltip();
 
-
-
     /*----------------------script for owl carousel sponsors---------------------*/
 
         $("#sponsor-list").owlCarousel({
@@ -190,7 +186,6 @@ $(document).ready(function () {
             itemsTabletSmall: [625,2],
             itemsMobile: [479,1]
         });
-
 
 
     /*  -------------------------------
@@ -209,6 +204,4 @@ $(document).ready(function () {
         var redirectPage = window.location.hash.slice(1);
         $('*[data-url_target="'+redirectPage+'"]').trigger('click');
     }
-
-
 });

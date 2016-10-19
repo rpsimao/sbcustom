@@ -16,8 +16,6 @@ $(document).ready(function () {
             cfsubmitText 	= $cfsubmit.text();
 
         $cfsubmit.text("Sending...");
-
-
         $.ajax(
             {
                 url : formURL,
