@@ -9,8 +9,8 @@
     <title>SB Custom :: Boutique Guitar and Bass Pickups - Custom Guitars and Basses</title>
     <link rel="icon" href="assets/img/icon/fav_icon.gif">
     <!--necessary stylesheets -->
-    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="assets/css/ionicons.min.css">
     <link type="text/css" rel="stylesheet" href="assets/css/popup.min.css">
     <link type="text/css" rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -52,8 +52,8 @@
     <?php include_once ("partials/customguitarbass.phtml") ?>
     <?php include_once ("partials/premium.phtml") ?>
     <?php include_once ("partials/gallery.phtml") ?>
-    <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/modernizr.js"></script>
     <script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery.mixitup.min.js"></script>
