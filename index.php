@@ -12,12 +12,12 @@
     <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="assets/css/ionicons.min.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/popup.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/owl.carousel.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/owl.theme.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/sbcustom.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/pickups.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/popup.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/owl.theme.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/sbcustom.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/pickups.min.css">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -59,8 +59,8 @@
     <script type="text/javascript" src="assets/js/jquery.mixitup.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery.popup.min.js"></script>
     <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="assets/js/contact.js"></script>
-    <script type="text/javascript" src="assets/js/script.js"></script>
-    <script type="text/javascript" src="assets/js/sbcustom.js"></script>
+    <script type="text/javascript" src="assets/js/contact.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.min.js"></script>
+    <script type="text/javascript" src="assets/js/sbcustom.min.js"></script>
 </body>
 </html>

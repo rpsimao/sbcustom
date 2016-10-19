@@ -87,8 +87,6 @@
     display: block;
 }
 
-
-
 .flip-container-premium {
     -webkit-perspective: 1000;
     -o-perspective: 1000;
@@ -102,16 +100,12 @@
     -sand-transform: rotate(-180deg);
     transform: rotateY(180deg);
 }
-
-
-
 .flip-container-premium,
 .front-premium
 {
     height: auto;
     min-height: 350px;
     /*background: url("/assets/images/strat-logo.png") no-repeat center;*/
-
 }
 
 .flip-container-premium,
@@ -120,7 +114,6 @@
     height: auto;
     min-height: 350px;
     /*background: url("/assets/images/bass-logo.png") no-repeat center;*/
-
 }
 
 
@@ -256,10 +249,7 @@
 	
 .intro-content {
     top: 5%;
-
-
 }
-
 
 .menu > div h2 {
     color: #fff;
@@ -271,7 +261,6 @@
     /*opacity: 0.8;*/
     letter-spacing: 1px;
 }
-
 .heading i {
     background: transparent;
     border-radius: 50%;
