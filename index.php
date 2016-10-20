@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/vendor/autoload.php';?>
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
@@ -64,5 +65,9 @@
     <script type="text/javascript" src="assets/js/contact.min.js"></script>
     <script type="text/javascript" src="assets/js/script.min.js"></script>
     <script type="text/javascript" src="assets/js/sbcustom.min.js"></script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5808dcd535bea28e"></script>
+
+
 </body>
 </html>

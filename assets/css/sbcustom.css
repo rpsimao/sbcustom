@@ -486,3 +486,19 @@ h2.small-heading-silver:before {
 	color: black;
 	text-align: justify;
 }
+
+.top-10 {
+    margin-top: 10px;
+}
+
+.top-20 {
+    margin-top: 20px;
+}
+
+.top-p-10 {
+    padding-top: 10px;
+}
+
+.top-p-20 {
+    padding-top: 20px;
+}
