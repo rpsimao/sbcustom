@@ -1,9 +1,7 @@
+<?php require_once __DIR__ .'/../vendor/autoload.php';?>
 <!doctype html>
-
 <html lang="en" class="no-js">
-
 <head>
-
     <!-- meta data -->
 
     <meta charset="UTF-8">
@@ -63,12 +61,10 @@
                         <div class="project-container">
                             <div class="row">
                                 <!-- Portfolio Control Buttons [ END ] -->
-
                                 <div id="projects" class="projet-items clearfix">
                                     <?php
-                                    require_once ('../Library/Porfolio.php');
                                     $proj = new SBCustom\Porfolio();
-                                    $proj->setImageFolder("/assets/images/gallery/");
+                                    $proj->setImageFolder('/assets/images/gallery/');
                                     $proj->setId("duarte");
                                     $proj->setCaption("Duarte Figueira 70<sup>th</sup> Anniversary");
                                     $proj->setProjectType("guitar");
@@ -76,7 +72,6 @@
                                     $proj->setImageBack("duarteback.png");
                                     $proj->setProjectText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed finibus ex. Cras ac sollicitudin quam, sed finibus ipsum. Maecenas sed dolor ut dolor maximus facilisis. Donec dapibus purus orci, congue sodales leo volutpat ultricies. Aenean semper sodales orci et cursus. Donec elementum nisl at facilisis eleifend. Ut fermentum, sapien ac fringilla efficitur, urna odio auctor mauris, eu pretium massa orci non ligula. Curabitur id lectus sit amet libero efficitur pretium. Vestibulum nec mattis dolor, rutrum vehicula ipsum. Phasellus quis lorem vitae erat venenatis placerat. Vivamus eget velit venenatis, placerat odio nec, pellentesque magna. Fusce vitae dui mi. In tincidunt orci ullamcorper erat elementum, eu facilisis erat facilisis. Sed nec dolor ante. Morbi sed finibus ex. Quisque vestibulum orci at placerat efficitur.");
                                     echo $proj->render();
-
                                     ?>
                                 </div>
                             </div>
@@ -85,7 +80,6 @@
                 </div>
                 <?php include "../partials/footer.phtml" ?>
             </div>
-
         </div>
     </div>
 <script type="text/javascript" src="../assets/js/jquery-2.1.3.min.js"></script>
