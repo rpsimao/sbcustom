@@ -1,0 +1,61 @@
+<div id="custom" class="portfolio-page container-fluid page">
+
+    <div class="row">
+
+        <!--( a ) Portfolio Page Fixed Image Portion -->
+
+        <div class="image-container col-md-3 col-sm-12">
+            <div class="mask">
+            </div>
+            <div class="main-heading">
+                <h1>Custom Guitars & Bass</h1>
+            </div>
+        </div>
+
+        <!--( b ) Portfolio Page Content -->
+
+        <div class="content-container col-md-9 col-sm-12">
+
+            <!--( A ) Portfolio -->
+
+            <div class="portfolio clearfix full-height">
+                <h2 class="small-heading-silver">Gallery</h2>
+
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+                        <div class="project-container">
+                            <div class="row">
+                                <div class="project-controls">
+                                    <button class="filter active" data-filter="all">All</button>
+                                    <button class="filter" data-filter=".guitar">Guitar</button>
+                                    <button class="filter" data-filter=".bass">Bass</button>
+                                </div>
+
+                                <!-- Portfolio Control Buttons [ END ] -->
+
+                                <div id="projects" class="projet-items clearfix">
+                                <?php
+                                    require_once ('Library/Porfolio.php');
+                                    $proj = new SBCustom\Porfolio();
+                                    $proj->setImageFolder("/assets/images/gallery/");
+                                    $proj->setId("duarte");
+                                    $proj->setCaption("Duarte Figueira 70<sup>th</sup> Anniversary");
+                                    $proj->setProjectType("guitar");
+                                    $proj->setImageFront("duarte.png");
+                                    $proj->setImageBack("duarteback.png");
+                                    $proj->setProjectText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed finibus ex. Cras ac sollicitudin quam, sed finibus ipsum. Maecenas sed dolor ut dolor maximus facilisis. Donec dapibus purus orci, congue sodales leo volutpat ultricies. Aenean semper sodales orci et cursus. Donec elementum nisl at facilisis eleifend. Ut fermentum, sapien ac fringilla efficitur, urna odio auctor mauris, eu pretium massa orci non ligula. Curabitur id lectus sit amet libero efficitur pretium. Vestibulum nec mattis dolor, rutrum vehicula ipsum. Phasellus quis lorem vitae erat venenatis placerat. Vivamus eget velit venenatis, placerat odio nec, pellentesque magna. Fusce vitae dui mi. In tincidunt orci ullamcorper erat elementum, eu facilisis erat facilisis. Sed nec dolor ante. Morbi sed finibus ex. Quisque vestibulum orci at placerat efficitur.");
+                                    $proj->setGoToGalleryURL("/gallery/?g=duarte");
+                                    echo $proj->render();
+
+                                ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <?php include "footer.phtml" ?>
+        </div>
+    </div>
+</div>
