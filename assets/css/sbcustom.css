@@ -502,3 +502,38 @@ h2.small-heading-silver:before {
 .top-p-20 {
     padding-top: 20px;
 }
+
+
+.btn-guitars {
+    border-radius: 0px;
+    margin-top: 20px;
+    font-size: 13px;
+    padding: 5px 20px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    color: #8a6e4b;
+    /*border: 1px solid #8a6e4b;*/
+}
+.btn-guitars:hover {
+   /* background-color: #8a6e4b !important;*/
+    color: #8a6e4b !important;
+    text-decoration: none;
+}
+
+.btn-guitars i {
+    font-size: 28px;
+    display: block;
+    text-align: center;
+    text-indent: -20px;
+    color: #191919
+}
+a.btn-guitars {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
