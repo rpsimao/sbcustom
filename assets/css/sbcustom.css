@@ -16,8 +16,13 @@
 }
 
 .text-90{
-	font-size: 90%;
-	
+	/*font-size: 90%;*/
+    font-family: 'Raleway', serif;
+    font-weight: 400;
+    font-size: 90%;
+    margin-top: 10px;
+    clear: both;
+    display: block;
 }
 
 .main-heading {
@@ -53,9 +58,6 @@
     min-height: 350px;
     background: url("/assets/images/bass-logo.png") no-repeat center;
 }
-
-
-
 .gold{
     color: #8a6e4b;
 }
